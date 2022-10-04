@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outplayed | Impossible TTT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Impossible Tic-Tac-Toe</h1>
+      <h2 id="message"></h2>
+    </header>
+    
+    <table id="tab-tic-tac-toe" cellspacing="0">
+      <tr>
+        <td id="00" onclick="clickedCell(this)"></td>
+        <td id="01" onclick="clickedCell(this)"></td>
+        <td id="02" onclick="clickedCell(this)"></td>
+      </tr>
+      <tr>
+        <td id="10" onclick="clickedCell(this)"></td>
+        <td id="11" onclick="clickedCell(this)"></td>
+        <td id="12" onclick="clickedCell(this)"></td>
+      </tr>
+      <tr>
+        <td id="20" onclick="clickedCell(this)"></td>
+        <td id="21" onclick="clickedCell(this)"></td>
+        <td id="22" onclick="clickedCell(this)"></td>
+      </tr>
+    </table>
+    
+    <div class="resetbutton">
+		  <input type="button" value="Start Game" id="reset" onclick="restartBtn(this)"/>
+    </div>
+
+    <footer>
+      <p>
+        Game by:&nbsp;
+        <a href="https://twitter.com/AaronWarusz" target="_blank">Aaron</a>,&nbsp;
+        <a href="https://twitter.com/AG_Softwares" target="_blank">Arturo</a>,&nbsp;
+        <a href="https://twitter.com/TypingTapestry" target="_blank">Dominic</a>,&nbsp;
+        <a href="https://twitter.com/lalysi1" target="_blank">Laura</a>,&nbsp;
+        <a href="https://twitter.com/MasonUnger2" target="_blank">Mason</a>,&nbsp;
+        <a href="https://twitter.com/doanaminh" target="_blank">Minh</a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
